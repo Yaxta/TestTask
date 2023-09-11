@@ -1,0 +1,110 @@
+.container 
+    height: 1000px
+    
+.main_wrapper
+    display: flex
+    justify-content: space-between
+    
+.table
+    background-color: #FAFAFA
+    width: 1133px
+    min-height: 912px
+    margin: 76px 0 76px 0
+    border-radius: 24px
+    padding: 32px 40px 168px 40px
+    &_title
+        font-size: 24px
+        margin-bottom: 24px
+        font-weight: 400
+    &_subtitle
+        display: grid
+        grid-template-columns: repeat(2, 0.5fr) repeat(2, 80px) 56px
+        grid-template-rows: repeat(18, auto)
+        width: 1053px
+        &_item
+            font-weight: 600 
+            font-size: 13px
+            padding: 6px 16px 6px 16px
+    .table_items
+        background-color: #fff
+        display: grid
+        grid-template-columns: repeat(2, 0.5fr) repeat(2, 80px) 56px
+        grid-template-rows: repeat(18, auto)
+        width: 1053px
+    .item
+        color: #404040
+        font-size: 13px
+        line-height: 16px
+        padding: 6px 16px 6px 16px      
+    .item:hover
+            background-color: #FFEEAB
+    .item:active
+            background-color: #FFCB00
+            
+      
+.card
+    &_wrapper
+        display: flex
+        flex-direction: column
+        margin-top: 224px
+        width: 410px
+        height: 632px
+        .subtitle
+            font-weight: 600
+            font-size: 16px
+            color: #262626
+        .phone_name
+            display: flex
+            flex-direction: column
+            padding-bottom: 36px
+            label
+                margin-bottom: 8px
+            input
+                margin-bottom: 24px
+                border-radius: 16px
+                height: 40px
+                border: 1px solid #ced4da
+                padding: 0 16px 0 16px
+                color: #808080
+                font-size: 16px   
+            input:last-child
+                margin-bottom: 0px
+        .radio_checkboxes
+            display: flex
+            flex-direction: column
+            background-color: #FAFAFA
+            padding: 16px 16px 20px 16px
+            border-radius: 16px
+            margin-bottom: 36px
+            .subtitle
+                margin-bottom: 12px
+            .choice_gender
+                display: flex
+                flex-direction: column
+                margin-bottom: 24px
+                .gender_male
+                    margin-bottom: 8px
+        .checkboxes
+            display: flex
+            flex-direction: column
+            label
+                margin-right: 10px
+                margin-bottom: 4px     
+        .btn
+            display: flex
+            justify-content: center
+            align-items: center
+            padding: 0 24px 0 24px
+            border-radius: 16px
+            height: 40px
+            border: none
+            background-color: #FFCB00
+            svg
+                margin-left: 8px
+        .btn:hover
+            border: 2px solid #FFEEAB
+            color: white
+            
+
+    
+
