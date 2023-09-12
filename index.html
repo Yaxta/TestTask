@@ -140,16 +140,18 @@
           </div>
           <div class="card">
             <form class="card_wrapper">
-              <div  class="phone_name">
+              <div class="phone_name">
                 <label class="subtitle" for="name">Имя*</label>
                 <input
                   type="text"
                   id="name"
                   placeholder="Введите имя"
                   name="name"
+                  class="input_name"
                 />
                 <label class="subtitle" for="phone">Телефон*</label>
                 <input
+                  class="input_name"
                   type="tel"
                   id="phone"
                   placeholder="+7"
@@ -159,56 +161,99 @@
               <div class="radio_checkboxes">
                 <!-- Радиокнопки для выбора гендера -->
                 <div class="choice_gender">
-                <label class="subtitle">Пол*</label>
-                <label>
-                  <input class="gender_male" type="radio" name="gender" value="male" />
-                  Мужской </label
-                >
-                <label>
-                  <input type="radio" name="gender" value="female" />
-                  Женский </label
-                ></div>
-
+                  <label class="subtitle">Пол*</label>
+                  <label>
+                    <input
+                      class="gender_male"
+                      type="radio"
+                      name="gender"
+                      value="male"
+                    />
+                    Мужской
+                  </label>
+                  <label>
+                    <input type="radio" name="gender" value="female" />
+                    Женский
+                  </label>
+                </div>
                 <!-- Чекбоксы -->
                 <div class="checkboxes">
                   <label class="subtitle">Любимые жанры видеоигр</label>
                   <label>
-                    <input type="checkbox" name="interests" value="platformers" />
+                    <input
+                      type="checkbox"
+                      name="interests"
+                      value="platformers"
+                    />
                     Платформеры
                   </label>
                   <label>
-                    <input type="checkbox" name="interests" value="music" />
+                    <input type="checkbox" name="interests" value="Shooters" />
                     Шутеры
                   </label>
                   <label>
-                    <input type="checkbox" name="interests" value="movies" />
+                    <input
+                      type="checkbox"
+                      name="interests"
+                      value="Stealth games"
+                    />
                     Стелс-игры
                   </label>
                   <label>
-                    <input type="checkbox" name="interests" value="books" />
+                    <input
+                      type="checkbox"
+                      name="interests"
+                      value="Survival Games"
+                    />
                     Игры на выживание
                   </label>
                   <label>
-                    <input type="checkbox" name="interests" value="travel" />
+                    <input
+                      type="checkbox"
+                      name="interests"
+                      value="Rhythm games"
+                    />
                     Ритм-игры
                   </label>
                   <label>
-                    <input type="checkbox" name="interests" value="food" />
+                    <input
+                      type="checkbox"
+                      name="interests"
+                      value="Battle Royale Games"
+                    />
                     Игры королевской битвы
                   </label>
                 </div>
               </div>
               <!-- Кнопка для отправки формы -->
-              <button class="btn" type="submit" alt="arrow" value="Отправить" >Отправить
-                <svg class="my-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3.75 12H20.25" stroke="#262626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="#262626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                  
+              <button class="btn" type="submit" alt="arrow" value="Отправить">
+                Отправить
+                <svg
+                  class="my-svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.75 12H20.25"
+                    stroke="#262626"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.5 5.25L20.25 12L13.5 18.75"
+                    stroke="#262626"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </button>
-              <!-- <input  src="/icons/ArrowRight 1.svg" type="submit" alt="arrow" value="Отправить" /> -->
             </form>
-           
+          </div>
         </div>
       </div>
     </section>

@@ -1,10 +1,10 @@
-.container 
+.container
     height: 1000px
-    
+
 .main_wrapper
     display: flex
     justify-content: space-between
-    
+
 .table
     background-color: #FAFAFA
     width: 1133px
@@ -22,7 +22,7 @@
         grid-template-rows: repeat(18, auto)
         width: 1053px
         &_item
-            font-weight: 600 
+            font-weight: 600
             font-size: 13px
             padding: 6px 16px 6px 16px
     .table_items
@@ -35,13 +35,12 @@
         color: #404040
         font-size: 13px
         line-height: 16px
-        padding: 6px 16px 6px 16px      
+        padding: 6px 16px 6px 16px
     .item:hover
-            background-color: #FFEEAB
+        background-color: #FFEEAB
     .item:active
-            background-color: #FFCB00
-            
-      
+        background-color: #FFCB00
+
 .card
     &_wrapper
         display: flex
@@ -63,12 +62,22 @@
                 margin-bottom: 24px
                 border-radius: 16px
                 height: 40px
-                border: 1px solid #ced4da
+                border: 1px solid black
                 padding: 0 16px 0 16px
                 color: #808080
-                font-size: 16px   
+                font-size: 16px
+            .input_name
+                border: 2px solid #ccc
+            .input_name:hover
+                border: 2px solid #FFEEAB
+                color: #808080
+            .input_name:focus
+                border: 2px solid #ffeeab
+                outline: none
+                color: #404040
             input:last-child
                 margin-bottom: 0px
+
         .radio_checkboxes
             display: flex
             flex-direction: column
@@ -84,12 +93,18 @@
                 margin-bottom: 24px
                 .gender_male
                     margin-bottom: 8px
+            .gender_male:focus
+                background-color: red
+
         .checkboxes
             display: flex
             flex-direction: column
             label
                 margin-right: 10px
-                margin-bottom: 4px     
+                margin-bottom: 4px
+            input[type="checkbox"]
+                margin-right: 8px
+
         .btn
             display: flex
             justify-content: center
@@ -102,9 +117,8 @@
             svg
                 margin-left: 8px
         .btn:hover
-            border: 2px solid #FFEEAB
+            border: 3px solid #FFEEAB
             color: white
-            
-
-    
-
+            svg:hover
+                fill: #fff
+                stroke: white
