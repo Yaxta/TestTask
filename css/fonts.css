@@ -19,7 +19,7 @@
   font-family: "GolosTextWebDemiBold";
   src: url("../fonts/golos-text_demibold.woff2") format("woff2"),
     url("../fonts/golos-text_demibold.woff") format("woff");
-  font-weight: 600;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -39,9 +39,9 @@
   font-style: normal;
 }
 
-html {
+/* html {
   font-family: GolosText, sans-serif;
-}
+} */
 
 /* @font-face {
   font-family: "GolosTextWebVF";
